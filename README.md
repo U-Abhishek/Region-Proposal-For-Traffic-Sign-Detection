@@ -1,4 +1,4 @@
-
+## Region Proposal Network
 Traffic sign recognition has multiple real-world applications, 
 such as driver safety monitoring and decision-making in 
 self-driving cars. The key function of these comuputer 
@@ -18,4 +18,3 @@ This dataset is composed of 1206 traffic signs that are split into:
 Which were extracted from 900 full images each of these images contains one, multiple, or zero traffic signs which naturally suffer 
 from contrasts in light conditions and orientations.
 
-## Region Proposal Network
