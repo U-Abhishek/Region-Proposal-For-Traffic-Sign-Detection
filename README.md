@@ -18,3 +18,23 @@ This dataset is composed of 1206 traffic signs that are split into:
 Which were extracted from 900 full images each of these images contains one, multiple, or zero traffic signs which naturally suffer 
 from contrasts in light conditions and orientations.
 
+## Selective Search
+Object proposal algorithms are developed to find regions in the 
+image that are most likely to contain objects. In this way,
+background regions can be taken out of the pipeline to attain
+higher speeds.\
+Selective search is one of the most robust object proposal methods
+used in R-CNN. It divides the image into patches by grouping
+similar regions based on color, size, texture and shape.
+
+Code for Selective Search: [selective search.ipynb](https://github.com/U-Abhishek/Region-Proposal-For-Traffic-Sign-Detection/blob/master/selective%20search.ipynb)
+
+<img src="https://user-images.githubusercontent.com/86155658/151670115-009272fd-2aae-45b0-88bc-b41818b111a3.png" alt="drawing" style="width:700px;"/>
+
+
+## Customized Object Proposal
+As you can see in above picture selective search is giving may region proposals 
+with no traffic signs in them taking this into consideration COP(customize Object
+Proposal) is developed.
+#### Object proposal by COP:
+<img src="https://user-images.githubusercontent.com/86155658/151668255-58976f37-84b1-439c-8757-121270687a57.png" alt="drawing" style="width:700px;"/>
