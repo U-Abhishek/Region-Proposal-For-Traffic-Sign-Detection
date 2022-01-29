@@ -14,7 +14,7 @@ daylight and at nightfall, and various weather conditions are
 featured.\
 This dataset is composed of 1206 traffic signs that are split into:
 - a training set of 600 images with 846 traffic signs.
-- a testing set of 300 images with 360 traffic signs.
+- a testing set of 300 images with 360 traffic signs.\
 Which were extracted from 900 full images each of these images contains one, multiple, or zero traffic signs which naturally suffer 
 from contrasts in light conditions and orientations.
 
