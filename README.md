@@ -42,4 +42,9 @@ Code for COP : [Custom Region Proposal.ipynb](https://github.com/U-Abhishek/Regi
 #### Object proposal by COP:
 <img src="https://user-images.githubusercontent.com/86155658/151670115-009272fd-2aae-45b0-88bc-b41818b111a3.png" alt="drawing" style="width:700px;"/>
 
+## Elements of COP
+- Color Threhsolding: [color thresholding.ipynb](https://github.com/U-Abhishek/Region-Proposal-For-Traffic-Sign-Detection/blob/master/color%20thresholding.ipynb) 
+[*****************]
+- Contour Filtering: [COLOUR Filter and Pixal density.ipynb](https://github.com/U-Abhishek/Region-Proposal-For-Traffic-Sign-Detection/blob/master/COLOUR%20Filter%20and%20Pixal%20density.ipynb) 
+[*****************]
 
