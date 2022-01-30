@@ -1,4 +1,4 @@
-## Region Proposal Network
+# Region Proposal For Traffic Sign Detedtion
 Traffic sign recognition has multiple real-world applications, 
 such as driver safety monitoring and decision-making in 
 self-driving cars. The key function of these comuputer 
@@ -44,9 +44,9 @@ Code for COP : [Custom Region Proposal.ipynb](https://github.com/U-Abhishek/Regi
 
 ## Elements of COP
 - Color Threhsolding: [color thresholding.ipynb](https://github.com/U-Abhishek/Region-Proposal-For-Traffic-Sign-Detection/blob/master/color%20thresholding.ipynb) 
-[*****************]
-- Contour Filtering: [COLOUR Filter and Pixal density.ipynb](https://github.com/U-Abhishek/Region-Proposal-For-Traffic-Sign-Detection/blob/master/COLOUR%20Filter%20and%20Pixal%20density.ipynb) 
-[*****************]
+![image](https://user-images.githubusercontent.com/86155658/151686679-0f4760df-116c-4890-8255-85d0a46f4e25.png)
+
+- Contour Filtering: [COLOUR Filter and Pixal density.ipynb](https://github.com/U-Abhishek/Region-Proposal-For-Traffic-Sign-Detection/blob/master/COLOUR%20Filter%20and%20Pixal%20density.ipynb)
 
 ## Region Proposal Network
 A feed forward neural network is used as RPN which is trained on 
