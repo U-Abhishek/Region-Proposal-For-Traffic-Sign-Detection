@@ -48,3 +48,29 @@ Code for COP : [Custom Region Proposal.ipynb](https://github.com/U-Abhishek/Regi
 - Contour Filtering: [COLOUR Filter and Pixal density.ipynb](https://github.com/U-Abhishek/Region-Proposal-For-Traffic-Sign-Detection/blob/master/COLOUR%20Filter%20and%20Pixal%20density.ipynb) 
 [*****************]
 
+## Elements of COP
+- Color Threhsolding: [color thresholding.ipynb](https://github.com/U-Abhishek/Region-Proposal-For-Traffic-Sign-Detection/blob/master/color%20thresholding.ipynb) 
+[*****************]
+- Contour Filtering: [COLOUR Filter and Pixal density.ipynb](https://github.com/U-Abhishek/Region-Proposal-For-Traffic-Sign-Detection/blob/master/COLOUR%20Filter%20and%20Pixal%20density.ipynb) 
+[*****************]
+
+
+## Region Proposal Network
+A feed forward neural network is used as RPN which is trained on 
+[GTSTRB dataset](https://benchmark.ini.rub.de/gtsrb_news.html) 
+as a Binary classifier.
+
+Code for Region Proposal Network: [train_detection.py](https://github.com/U-Abhishek/Region-Proposal-For-Traffic-Sign-Detection/blob/master/train_detection.py)
+
+
+## Recognition Model:
+
+There are 42 different classes of traffic signs in GTSTRB dataset 
+a neural network is trained as multi class classifier on this dataset.
+
+Code for Recognition Model: [train_recog.py](https://github.com/U-Abhishek/Region-Proposal-For-Traffic-Sign-Detection/blob/master/train_recog.py)
+
+## Experimentation:
+Texture Based Segmentation: [texture_segmentation.ipynb](https://github.com/U-Abhishek/Region-Proposal-For-Traffic-Sign-Detection/blob/master/texture_segmentation.ipynb)\
+Shape Detection: [Shape detaction.ipynb](https://github.com/U-Abhishek/Region-Proposal-For-Traffic-Sign-Detection/blob/master/Shape%20detaction.ipynb)
+
